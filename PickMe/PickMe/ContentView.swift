@@ -23,11 +23,13 @@ struct ContentView: View {
                     Text("Add Options to Decide Your Fate")
                         .bold()
                 } else {
-                    ScrollView {
+                    List {
                         ForEach(userOptions, id: \.id){ opt in
                             OptionView(option: opt)
                         }
+                        .onDelete(perform: delete)
                     }
+                    //.listRowBackground(Color.white)
                 }
                 
                 Spacer()
@@ -58,6 +60,10 @@ struct ContentView: View {
                         Button("OK", role: .cancel) { }
                     }
         }
+    }
+    
+    func delete(at offsets: IndexSet) {
+        userOptions.remove(atOffsets: offsets)
     }
 }
 

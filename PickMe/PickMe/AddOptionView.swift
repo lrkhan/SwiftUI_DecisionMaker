@@ -26,6 +26,7 @@ struct AddOptionView: View {
                     Group {
                         Text(quote.Message)
                             .padding([.top, .leading, .trailing])
+                            .frame(width: 350, height: 100)
                         Text("- \(quote.Person)")
                     }
                     
@@ -34,7 +35,7 @@ struct AddOptionView: View {
                     HStack {
                         Spacer()
                         
-                        TextField("Enter an option", text: $optionText)
+                        TextField(arrayOfOptions.isEmpty ? "Start with an Option 1" : "Enter Option \(arrayOfOptions.count + 1)", text: $optionText)
                             .foregroundColor(.black)
                             .padding()
                             .frame(width: geo.size.width * 0.9, height: geo.size.height * 0.1)
