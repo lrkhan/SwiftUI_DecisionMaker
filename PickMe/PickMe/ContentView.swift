@@ -20,7 +20,7 @@ struct ContentView: View {
                 Spacer()
                 
                 if userOptions.isEmpty {
-                    Text("Add Options to Decide Your Fate")
+                    Text("Add Options")
                         .bold()
                 } else {
                     List {
