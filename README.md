@@ -19,7 +19,7 @@ Only two options when launching the screen: Add an options or roll for an option
 
 Clicking on the "Plus" button brings up the add option sheet. On the sheet there is a quote and a textfield where the user can enter an option. Clicking the "Add" button doesn't dismiss the sheet but clears the text field and lets the user enter another option. Once all options, the user wants, have been entered then clicking on the "Done" button closes the sheet.
 
-### Screen After A Few Options
+### Main Screen After A Few Options
 <img src="./Images/ScreenWOptions.png" width="250" alt="Main Screen with Options" class="center">
 
 The screen with a few options that the user has inputed. The border colors are randomly generated. 
@@ -30,6 +30,6 @@ The screen with a few options that the user has inputed. The border colors are r
 Swiping from left to right on an option will bring up the ability to delete an option.
 
 ### Rolling For An Option
-<img src="./Images/AddOptions.png" width="250" alt="Roll for an Option Alert" class="center">
+<img src="./Images/RollOption.png" width="250" alt="Roll for an Option Alert" class="center">
 
 Clicking on the "Dice" button returns a random option in the form of an alert. The user can dismiss the alert an reroll if they would like to.
