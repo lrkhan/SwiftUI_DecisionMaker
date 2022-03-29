@@ -10,11 +10,13 @@ Feel Free to Check Out the Code!
 ### Main Screen
 <img src="./Images/FirstScreen.png" width="250" alt="Main Screen Image" class="center">
 
-Only two options when launching the screen: Add an options or roll for an option. But without any options present you'll get this message:
+Only two options when launching the screen: Add an options or roll for an option. But without any options present you'll get this message.
+
 <img src="./Images/noOptions.png" width="250" alt="No Options Alert Message" class="center">
 
 ### Adding An Option
-<img src="./Images/AddOptions.png" width="250" alt="Add Options Sheet" class="center">
+<img src="./Images/AddOptions.png" width="250" alt="Add Options Sheet">
+
 Clicking on the "Plus" button brings up the add option sheet. On the sheet there is a quote and a textfield where the user can enter an option. Clicking the "Add" button doesn't dismiss the sheet but clears the text field and lets the user enter another option. Once all options, the user wants, have been entered then clicking on the "Done" button closes the sheet.
 
 ### Screen After A Few Options
