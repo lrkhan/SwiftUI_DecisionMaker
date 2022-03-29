@@ -32,4 +32,4 @@ Swiping from left to right on an option will bring up the ability to delete an o
 ### Rolling For An Option
 <img src="./Images/RollOption.png" width="250" alt="Roll for an Option Alert" class="center">
 
-Clicking on the "Dice" button returns a random option in the form of an alert. The user can dismiss the alert an reroll if they would like to.
+Clicking on the "Dice" button returns a random option in the form of an alert. The user can dismiss the alert and reroll if they would like to.
